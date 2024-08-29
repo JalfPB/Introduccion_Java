@@ -19,9 +19,27 @@ public class Ej28 {
             System.out.println("4: Salir");
 
             n = scanner.nextInt();
-            if(n==4){
+            //if(n==4){
+            //    salir=true;
+            //    System.out.println("saliendo del menu");
+            //}
+
+            switch(n){
+                case 1:
+                System.out.println("Has elegido opcion 1");
+                break;
+                case 2:
+                System.out.println("Has elegido opcion 2");
+                break;
+                case 3:
+                System.out.println("Has elegido opcion 3");
+                break;
+                case 4:
+                System.out.println("Has elegido salir");
                 salir=true;
-                System.out.println("saliendo del menu");
+                break;
+                default :
+                System.out.println("Esa opcion no existe");
             }
         }
     }
